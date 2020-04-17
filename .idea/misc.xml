@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+  <component name="SbtLocalSettings">
+    <option name="projectSyncType">
+      <map>
+        <entry key="$USER_HOME$/Downloads/play-samples-play-java-rest-api-example" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../launchedit" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../playframework/play25" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../playframework/play25/test" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../token7/pf/play2510" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../token7/play-samples-play-java-dagger2-example" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../token7/play-samples-play-java-rest-api-example" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../token7/play/test" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../token7/play25" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../token7/play25-4/play25" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../token7/play2510" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../token7/play2510-3" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../token7/playTest" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../token7/playframework/play25/play-lab" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+  <component name="ScalaSbtSettings">
+    <option name="customLauncherPath" value="$USER_HOME$/.anyenv/envs/sbtenv/versions/sbt-0.13.15/sbt/bin/sbt-launch.jar" />
+    <option name="customVMPath" value="$APPLICATION_HOME_DIR$/jbr/Contents/Home" />
+  </component>
+</project>
