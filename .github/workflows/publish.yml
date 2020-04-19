@@ -40,4 +40,4 @@ jobs:
       env:
         USERNAME: ${{ github.actor }}
         TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        GRADLE_PUBLISH_VERSION: ${{ git_version }}
+        GRADLE_PUBLISH_VERSION: $git_version
