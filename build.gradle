@@ -1,7 +1,6 @@
 plugins {
     id 'java'
     id "maven-publish"
-    id 'com.bmuschko.clover'
 }
 
 group 'org.github.positrium'
@@ -19,15 +18,8 @@ dependencies {
 
     testCompile group: 'junit', name: 'junit', version: '4.12'
     testCompile group: 'com.google.truth', name: 'truth', version: '1.0.1'
-    compile group: 'org.openclover', name: 'clover-maven-plugin', version: '4.4.1'
 }
 
-clover {
-    report {
-        html = true
-        filter = 'main'
-    }
-}
 
 publishing {
     repositories {
