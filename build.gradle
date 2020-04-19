@@ -27,8 +27,8 @@ publishing {
             name = "GitHubPackages"
             url = uri("https://maven.pkg.github.com/positrium/value-object")
             credentials {
-                username = System.getenv("GITHUB_PACKAGE_USERNAME")
-                password = System.getenv("GITHUB_PACKAGE_TOKEN")
+                username = System.getenv("USERNAME")
+                password = System.getenv("TOKEN")
             }
         }
     }
