@@ -26,6 +26,9 @@ jobs:
 
     - name: Build with Gradle
       run: ./gradlew build
-    
+
     - name: Test With Gradle
       run: ./gradlew test
+
+    - name: Clover Report With Gradle
+      run: ./gradlew clean cloverGenerateReport
