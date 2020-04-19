@@ -4,6 +4,7 @@ plugins {
 }
 
 group 'org.github.positrium'
+version = System.getenv("GRADLE_PUBLISH_VERSION")
 
 sourceCompatibility = 1.8
 
