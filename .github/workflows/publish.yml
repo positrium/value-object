@@ -31,8 +31,8 @@ jobs:
         echo git-version= ${git-version}
         echo var_name= ${var_name}
         echo var-name= ${var-name}
-        ehco tag_var_name= ${tag_var_name}
-        ehco tag-var-name= ${tag-var-name}
+        echo tag_var_name= ${tag_var_name}
+        echo tag-var-name= ${tag-var-name}
         echo mvn_var_name= ${mvn_var_name}
         echo mvn-var-name= ${mvn-var-name} 
       
@@ -59,4 +59,4 @@ jobs:
         USERNAME: ${{ github.actor }}
         TOKEN: ${{ secrets.GITHUB_TOKEN }}
 #         GRADLE_PUBLISH_VERSION: ${{ steps.get_version.outputs.VERSION }}
-        GRADLE_PUBLISH_VERSION: $mvn-var-name
+        GRADLE_PUBLISH_VERSION: ${git_version}
