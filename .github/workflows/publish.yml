@@ -23,6 +23,18 @@ jobs:
         
     - name: get tag verison
       uses: Deep-Symmetry/github-version-action@v1
+      id: version
+      
+    - name: echo version
+      run: |
+        echo git_version= ${git_version}
+        echo git-version= ${git-version}
+        echo var_name= ${var_name}
+        echo var-name= ${var-name}
+        ehco tag_var_name= ${tag_var_name}
+        ehco tag-var-name= ${tag-var-name}
+        echo mvn_var_name= ${mvn_var_name}
+        echo mvn-var-name= ${mvn-var-name} 
       
 #     - name: Get the tag version
 #       id: get_version
